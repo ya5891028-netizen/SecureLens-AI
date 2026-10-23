@@ -1,0 +1,8 @@
+.cache/
+.ssh/
+.termux/
+__pycache__/
+*.txt
+*.json
+downloads/
+.gitconfig
