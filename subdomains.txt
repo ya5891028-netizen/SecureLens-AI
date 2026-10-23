@@ -1,0 +1,3 @@
+www.testfire.net
+ftp.testfire.net
+demo.testfire.net

